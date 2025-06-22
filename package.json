@@ -1,0 +1,27 @@
+{
+  "name": "your-monorepo",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "dependencies": {
+    "@tanstack/react-query": "^5.77.2",
+    "axios": "^1.9.0",
+    "chart.js": "^4.4.9",
+    "date-fns": "^2.30.0",
+    "express-mongo-sanitize": "^2.2.0",
+    "helmet": "^8.1.0",
+    "jspdf": "^3.0.1",
+    "jspdf-autotable": "^5.0.2",
+    "jwt-decode": "^4.0.0",
+    "next-themes": "^0.4.6",
+    "react-toastify": "^11.0.5",
+    "xlsx": "^0.18.5",
+    "xss-clean": "^0.1.4",
+    "zustand": "^5.0.5"
+  },
+  "devDependencies": {
+    "@tanstack/react-query-devtools": "^5.76.1"
+  }
+}

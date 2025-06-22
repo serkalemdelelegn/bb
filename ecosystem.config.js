@@ -3,7 +3,8 @@ module.exports = {
     {
       name: 'bole-pds-backend',
       script: './backend/server.js',
-      cwd: '/home/deploy/bole-pds1',
+      cwd: '/home/bole/bb/backend',
+      interpreter: 'node',
       instances: 1,
       autorestart: true,
       watch: false,
@@ -21,7 +22,7 @@ module.exports = {
       name: 'bole-pds-frontend',
       script: 'npm',
       args: 'start',
-      cwd: '/home/deploy/bole-pds1/frontend',
+      cwd: '/home/bole/bb/frontend',
       instances: 1,
       autorestart: true,
       watch: false,

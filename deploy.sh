@@ -9,7 +9,7 @@ NC='\033[0m' # No Color
 echo -e "${GREEN}Starting deployment process...${NC}"
 
 # Navigate to project directory
-cd /home/deploy/bole-pds1
+cd /home/bole/bb
 
 # Pull latest changes
 echo -e "${YELLOW}Pulling latest changes from git...${NC}"
